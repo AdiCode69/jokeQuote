@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=PT+Serif&family=Rubik+Moonrocks&family=Splash&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.head {
+    height: 13vh;
+    background-color: black;
+    display: flex;
+    list-style: none;
+}
+
+.heading {
+    margin-top: 30px;
+}
+
+.heading a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 35px;
+}
+
+.heading a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    height: 70vh;
+    background-color: aliceblue;
+    background-image: url('page.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.h {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+div {
+    font-weight: bolder;
+}
+
+img {
+    position: relative;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.items {
+    height: 50vh;
+    width: 30vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px black;
+}
+
+.lines {
+    text-align: center;
+    color: white;
+}
+
+.responsive {
+    display: none;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    margin: 12px auto;
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px black;
+    transition: ease-in 0.5s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.copy {
+    position: relative;
+    bottom: 58px;
+    left: 121px;
+    padding: 2px;
+    width: 30px;
+    margin: 10px auto;
+    box-shadow: 2px 2px black;
+    background-color: black;
+    transition: ease-in 0.5s;
+}
+
+.clip {
+    color: white;
+}
+
+/* .copy:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+} */
+
+
+/* .copy .tooltip {
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+.copy:hover .tooltip {
+    visibility: visible;
+} */
+
+
+footer {
+    background-color: black;
+    height: 17vh;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    overflow: auto;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+}
+
+.footing {
+    list-style: none;
+    padding: 5px 60px;
+}
+
+.footing a {
+    color: white;
+    text-decoration: none;
+}
+
+.footing a:hover {
+    color: aqua;
+}
+
+/* Responsive with media.... */
+
+@media only screen and (max-width: 1100px) {
+
+    .h {
+        color: antiquewhite;
+    }
+
+    div {
+        color: white;
+        font-weight: bolder;
+    }
+
+    .head {
+        background-color: aqua;
+    }
+
+    .heading {
+        margin-top: 30px;
+    }
+
+    .heading a {
+        color: black;
+        margin: 22px;
+    }
+
+    img {
+        margin: 10px auto;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        padding: 38px 6px;
+    }
+
+    .items {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 30px;
+        border: 3px solid black;
+        height: 54vh;
+    }
+
+    .btn {
+        width: 108px;
+        height: 63px;
+        background-color: white;
+        color: black;
+        transition: 0.5s ease-in 0.5s;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+
+    .copy {
+        position: relative;
+        bottom: 65px;
+        left: 72px;
+        padding: 2px;
+        width: 30px;
+        margin: 10px auto;
+        box-shadow: 2px 2px black;
+        background-color: white;
+        transition: ease-in 0.5s;
+    }
+
+    .clip {
+        color: black;
+    }
+
+
+
+    .copy:hover {
+        cursor: pointer;
+    }
+
+    /* .copy .tooltip {
+        visibility: hidden;
+        background-color: black;
+        color: white;
+        position: absolute;
+        display: inline-block;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .copy:hover .tooltip {
+        visibility: visible;
+    } */
+
+    footer {
+        background-color: aqua;
+    }
+
+    p {
+        color: black;
+    }
+
+    .footing a {
+        color: black;
+    }
+
+    .footing a:hover {
+        color: red;
+    }
+}
+
+/* responsive for column */
+
+@media only screen and (max-width: 350px) {
+
+    .heading {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h {
+        display: none;
+    }
+
+    div {
+        padding: 10px;
+    }
+
+    main {
+        overflow: scroll;
+    }
+
+    .items {
+        margin-bottom: 40px;
+        width: 57vw;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .foot {
+        display: none;
+    }
+}
