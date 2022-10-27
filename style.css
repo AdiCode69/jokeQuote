@@ -233,7 +233,6 @@ p {
     }
 
 
-
     .copy:hover {
         cursor: pointer;
     }
@@ -301,6 +300,10 @@ p {
     .items {
         margin-bottom: 40px;
         width: 57vw;
+    }
+
+    .lines{
+        color: black;
     }
 
     p {
