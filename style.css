@@ -97,7 +97,6 @@ img {
     color: white;
     background-color: black;
     box-shadow: 3px 3px black;
-    transition: ease-in 0.5s;
     font-weight: bold;
 }
 
@@ -123,26 +122,6 @@ img {
     color: white;
 }
 
-/* .copy:hover {
-    cursor: pointer;
-    color: black;
-    background-color: white;
-} */
-
-
-/* .copy .tooltip {
-    visibility: hidden;
-    background-color: white;
-    color: black;
-    position: absolute;
-    display: inline-block;
-    position: absolute;
-    z-index: 1;
-}
-
-.copy:hover .tooltip {
-    visibility: visible;
-} */
 
 
 footer {
@@ -192,16 +171,16 @@ p {
     }
 
     .head {
-        background-color: aqua;
+        background-color: black;
     }
 
     .heading {
-        margin-top: 30px;
+        margin-top: 37px;
     }
 
     .heading a {
-        color: black;
-        margin: 22px;
+        color: white;
+        margin: 27px;
     }
 
     img {
@@ -274,15 +253,15 @@ p {
     } */
 
     footer {
-        background-color: aqua;
+        background-color: black;
     }
 
     p {
-        color: black;
+        color: white;
     }
 
     .footing a {
-        color: black;
+        color: white;
     }
 
     .footing a:hover {
@@ -292,11 +271,11 @@ p {
 
 /* responsive for column */
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 750px) {
 
-    .heading {
+    /* .heading {
         display: none;
-    }
+    } */
 
     .container {
         display: flex;
@@ -309,6 +288,10 @@ p {
 
     div {
         padding: 10px;
+    }
+
+    .btn:hover{
+        cursor: pointer;
     }
 
     main {
@@ -324,7 +307,7 @@ p {
         text-align: center;
     }
 
-    .foot {
+    /* .foot {
         display: none;
-    }
+    } */
 }
